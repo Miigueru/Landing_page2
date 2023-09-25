@@ -85,7 +85,9 @@
   justify-content: center;
   min-height: 100vh;
   text-align: center;
+  padding-right: 10px;
 }
+
 
 .grid-one-content {
     display: flex;
@@ -195,7 +197,7 @@
   margin: 0;
   padding: 3rem;
 }
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .intro-content, .grid{
     grid-template-columns: 1fr;
   }
@@ -213,6 +215,23 @@
   .curiosities-content {
     grid-template-columns: 1fr;
     width: 100%;
+    max-height: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-right: 3rem;
+    
+  }
+  .curiosities-content h2 {
+    padding-right: 5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .curiosities-content p {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    justify-content: center;
   }
 }
 
